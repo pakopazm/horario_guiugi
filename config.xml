@@ -6,7 +6,7 @@
     version     = "1.0.0" >
 
 <!-- versionCode is optional and Android only -->
-
+  <icon src="img/Dgest.png" />
   <name>Horario</name>
 
   <description>
