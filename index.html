@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="img/Dgest.png">
+  <link rel="stylesheet" href="css\bootstrap.css">
+  <title>Inicio</title>
+</head>
+
+<body onload="init()">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/Dgest.png" class="img-fluid" width="50" height="50" /> EST 79
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="lunes.html">Lunes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="martes.html">Martes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="miercoles.html">Miércoles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="jueves.html">Jueves</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="viernes.html">Viernes</a>
+            </li>
+        </ul>
+    </div>
+  </nav>
+
+  <main role="main">
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-3">Horario Escolar</h1>
+        <h2>Primero "E"</h2>
+      </div>
+    </div>
+  </main>
+
+  <footer class="container">
+    <p>Ciclo Escolar 2018-2019</p>
+  </footer>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.js"></script>
+
+  <script>
+    function init() {
+      var a = new Date().getDay();
+      switch (a) {
+        case 1:
+          window.location.replace("lunes.html")
+          break;
+        case 2:
+          window.location.replace("martes.html")
+          break;
+        case 3:
+          window.location.replace("miercoles.html")
+          break;
+        case 4:
+          window.location.replace("jueves.html")
+          break;
+        case 5:
+          window.location.replace("viernes.html")
+          break;
+      }
+    }
+  </script>
+</body>
+
+</html>

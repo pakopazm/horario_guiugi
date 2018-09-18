@@ -1,0 +1,51 @@
+.español{
+    background-color:#800000!important;
+    color: #ffffff;
+}
+.geografia{
+    background-color:#9A6324!important;
+    color: #ffffff;
+}
+.matematicas{
+    background-color:#808000!important;
+    color: #ffffff;
+}
+.mecanica{
+    background-color:#469990!important;
+    color: #ffffff;
+}
+.artes{
+    background-color:#000075!important;
+    color: #ffffff;
+}
+.asignatura{
+    background-color:#e6194B!important;
+    color: #ffffff;
+}
+.ciencias{
+    background-color:#3cb44b!important;
+    color: #ffffff;
+}
+.ingles{
+    background-color:#42d4f4!important;
+    color: #ffffff;
+}
+.educfis{
+    background-color:#4363d8!important;
+    color: #ffffff;
+}
+.tutoria{
+    background-color:#911eb4!important;
+    color: #ffffff;
+}
+.receso{
+    background-color:#ececec!important;
+    color: #000000;
+}
+.materia{
+    background-color:#ececec;
+}
+.border{
+    border-style: solid;
+    border-width: 5px;
+}
